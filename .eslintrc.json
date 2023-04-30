@@ -1,9 +1,10 @@
 {
 	"env": {
 		"es6": true,
-		"node": true
+		"node": true,
+		"browser": true
 	},
-	"extends": ["@codeyourfuture/standard"],
+	"extends": ["@codeyourfuture/standard", "eslint:recommended"],
 	"parser": "@babel/eslint-parser",
 	"root": true,
 	"rules": {
